@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+    animation: myanimation 10s infinite;
+}
+p{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 5em;
+    font-weight: bold;
+    animation: myanimationText 10s infinite;  
+}
+p.link{
+    text-decoration: none;
+}
+
+@keyframes myanimationText {
+    0% {color: rgb(184, 153, 255);}
+    25%{color:yellow;}
+    50%{color:green;}
+    75%{color:brown;}
+    100% {color: red;}
+  }
+@keyframes myanimation {
+    0% {background-color: rgb(71, 88, 243);}
+    25%{background-color:rgb(0, 255, 221);}
+    50%{background-color:rgb(71, 240, 28);}
+    75%{background-color:rgb(248, 33, 69);}
+    100% {background-color: rgb(229, 252, 30);}
+  }
