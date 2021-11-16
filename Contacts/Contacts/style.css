@@ -2,7 +2,7 @@ body{
     height: 100%;
     animation: myanimation 10s infinite;
 }
-p.dev{
+p{
     height: 100%;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
@@ -12,9 +12,10 @@ p.dev{
     font-weight: bold;
     animation: myanimationText 10s infinite;  
 }
-p.link a{
-  text-decoration: none;
+p.link{
+    text-decoration: none;
 }
+
 @keyframes myanimationText {
     0% {color: rgb(184, 153, 255);}
     25%{color:yellow;}
